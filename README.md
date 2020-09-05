@@ -1,2 +1,3 @@
-# algorithms-and-data-structures
-JavaScript Algorithms and Data Structures Learning
+# JavaScript Algorithms and Data Structures Learning
+
+Run examples in terminal with node e.g. `node sumArray.js`
