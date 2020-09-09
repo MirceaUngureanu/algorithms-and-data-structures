@@ -1,6 +1,6 @@
-Use arrays when you need order.
+Use arrays when you need ordered data
 
-Adding - it depends if it's at the beginning or de end
+Adding - depending on if it's at the beginning, or the end
 - push - O(1)
 - pop - O(1)
 - shift - O(n)
