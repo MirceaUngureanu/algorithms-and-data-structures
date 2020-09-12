@@ -1,3 +1,4 @@
+// O(N)
 // Assume that we have two input of lowercase strings with not special characters.
 // We test if the second string is an anagram of the fist.
 

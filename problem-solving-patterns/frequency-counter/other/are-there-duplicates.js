@@ -1,3 +1,5 @@
+// O(N)
+
 function areThereDuplicates(...args) {
   let frequencyCoutter = {}
 
@@ -15,3 +17,4 @@ function areThereDuplicates(...args) {
 }
 
 console.log(areThereDuplicates(1,2,3))
+console.log(areThereDuplicates(1,2,3,1))
