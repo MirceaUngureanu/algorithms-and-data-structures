@@ -1,0 +1,1 @@
+Useful when keeping track of a subset of data in a larger set of data array/string etc. With certain conditions.
