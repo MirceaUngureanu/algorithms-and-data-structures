@@ -1,5 +1,5 @@
 // O(N)
-//takes in an organised array of numbers
+//takes in an organised array of numbers, returns an array with two numbers with a sum of 0
 
 function sumZero(arr){
   let left = 0
