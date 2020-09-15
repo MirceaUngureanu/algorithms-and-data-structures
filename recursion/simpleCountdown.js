@@ -1,3 +1,5 @@
+// O(N)
+
 function countdown(nr) {
   if (nr <= 0 ) {
     console.log("All done")

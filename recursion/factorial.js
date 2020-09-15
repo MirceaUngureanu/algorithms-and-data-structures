@@ -1,3 +1,5 @@
+// O(N)
+
 function factorial(nr) {
   if (nr === 1) return 1
 
