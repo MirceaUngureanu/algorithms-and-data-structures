@@ -1,5 +1,6 @@
 // Given a sorted array of integers and a target average,
 // is there a pair of values in the array where the average of the pair equals the target average
+// O(N)
 
 function averagePair(arr, target){
   let start = 0
