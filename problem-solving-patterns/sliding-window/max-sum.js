@@ -7,7 +7,7 @@ function maxSubarraySum(arr, num) {
     return null;
   }
   // account for negative numbers
-  var max = -Infinity;
+  let max = -Infinity
   // we don't go to the end of the array because we don't want to add less than the number required for the sequence
   for (let i = 0; i < arr.length - num + 1; i ++){
     let temp = 0;

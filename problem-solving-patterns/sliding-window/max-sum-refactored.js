@@ -16,7 +16,6 @@ function maxSubarraySum(arr, num){
     // arr[i - num] is where we always keep track of the last number to drop regardless of where we are in the loop
     tempSum = tempSum - arr[i - num] + arr[i];
     maxSum = Math.max(maxSum, tempSum);
-    console.log(maxSum)
   }
 
   return maxSum;
