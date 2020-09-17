@@ -2,7 +2,6 @@
 // O(N)
 
 function reverse(str){
-  // add whatever parameters you deem necessary - good luck!
   if (str === "") return ""
 
   return reverse(str.substr(1)) + str[0]
