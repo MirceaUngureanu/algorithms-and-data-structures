@@ -9,7 +9,7 @@ function stringSearch(larger, smaller) {
 
   for (let i = 0; i < larger.length; i++) {
     for (let j = 0; j < smaller.length; j++) {
-      // string doesn't match
+      // look ahead and check if string match
       if (smaller[j] !== larger[i+j]) break
       // j is the is at the last index, full string match
       if (j === smaller.length - 1) {
