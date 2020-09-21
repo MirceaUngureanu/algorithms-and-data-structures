@@ -1,6 +1,6 @@
 // Optimized BubbleSort with noSwaps
-// Still O(N^2) worst case scenario, but closer to O(N) when used for nearly sorted data
-// due to removal of unnecessary actions
+// Still O(N^2) worst case scenario,
+// but faster due to removal of unnecessary actions
 function bubbleSort(arr){
   let noSwaps;
 

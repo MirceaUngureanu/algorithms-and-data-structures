@@ -1,5 +1,5 @@
-// UNOPTIMIZED VERSION OF BUBBLE SORT
 // O(N^2)
+// UNOPTIMIZED VERSION OF BUBBLE SORT
 function bubbleSort(arr){
   // start from the end so we don't have unnecessary operations
   for(let i = arr.length; i > 0; i--){
