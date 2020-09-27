@@ -1,0 +1,1 @@
+Data structures are collections fo values, the relationship amongst them, and the functions or operations that can be applied to the data.
