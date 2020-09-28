@@ -12,7 +12,7 @@ class SinglyLinkedList{
     this.length = 0;
   }
   push(val){
-    var newNode = new Node(val);
+    let newNode = new Node(val);
     if(!this.head){
       this.head = newNode;
       this.tail = this.head;
@@ -25,8 +25,8 @@ class SinglyLinkedList{
   }
   pop(){
     if(!this.head) return undefined;
-    var current = this.head;
-    var newTail = current;
+    let current = this.head;
+    let newTail = current;
     while(current.next){
       newTail = current;
       current = current.next;
@@ -42,7 +42,7 @@ class SinglyLinkedList{
   }
   shift(){
     if(!this.head) return undefined;
-    var currentHead = this.head;
+    let currentHead = this.head;
     this.head = currentHead.next;
     this.length--;
     if(this.length === 0){
@@ -51,7 +51,7 @@ class SinglyLinkedList{
     return currentHead;
   }
   unshift(val){
-    var newNode = new Node(val);
+    let newNode = new Node(val);
     if(!this.head) {
       this.head = newNode;
       this.tail = this.head;
@@ -63,8 +63,8 @@ class SinglyLinkedList{
   }
   get(index){
     if(index < 0 || index >= this.length) return null;
-    var counter = 0;
-    var current = this.head;
+    let counter = 0;
+    let current = this.head;
     while(counter !== index){
       current = current.next;
       counter++;
@@ -73,12 +73,14 @@ class SinglyLinkedList{
   }
 }
 
-var list = new SinglyLinkedList()
+let list = new SinglyLinkedList()
 
 list.push("HELLO")
 list.push("GOODBYE")
 list.push("!")
 list.push("<3")
 list.push(":)")
+
+console.log(list)
 
 
