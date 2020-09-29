@@ -1,0 +1,1 @@
+Compared to singly linked lists, doubly linked lists offer more flexibility but use up more memory because we need to store an extra pointer.
