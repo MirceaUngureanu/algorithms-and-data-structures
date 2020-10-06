@@ -154,6 +154,43 @@ class DoublyLinkedList {
     this.length--
     return removedNode
   }
+
+  print() {
+    let arr = []
+
+    let current = this.head
+    while(current) {
+      arr.push(current.val)
+      current = current.next
+    }
+
+    console.log(arr)
+  }
+
+  reverse() {
+    if (this.length === 0) return undefined
+
+    let node = this.head
+    this.head = this.tail
+    this.head.prev = null
+    this.tail = null
+
+    // 1, 2, 3, 4
+
+    let next
+    let prev = null
+
+    for (let i = 0; i < this.length; i++) {
+      next = node.next
+      node.prev = next
+      node.next = prev
+      prev = node
+      node = next
+    }
+
+    this.print()
+    return this
+  }
 }
 
 let list = new DoublyLinkedList()
