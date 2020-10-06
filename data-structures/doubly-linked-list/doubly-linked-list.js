@@ -173,7 +173,7 @@ class DoublyLinkedList {
     let node = this.head
     this.head = this.tail
     this.head.prev = null
-    this.tail = null
+    this.tail = node
 
     // 1, 2, 3, 4
 
