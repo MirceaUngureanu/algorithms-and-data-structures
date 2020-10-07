@@ -25,12 +25,16 @@ class Stack {
       this.first = newNode;
       this.first.next = temp;
     }
+    
+    // increment and return
     return ++this.size;
   }
   //shift
   pop(){
     if(!this.first) return null;
     let temp = this.first;
+
+    // if only one item, handle last item case
     if(this.first === this.last){
       this.last = null;
     }
@@ -40,8 +44,8 @@ class Stack {
   }
 }
 
-let list = new Stack()
-list.push("Harry")
-list.push("Ron")
-list.push("Hermione")
-console.log(list)
+let stack = new Stack()
+stack.push("Harry")
+stack.push("Ron")
+stack.push("Hermione")
+console.log(stack)
