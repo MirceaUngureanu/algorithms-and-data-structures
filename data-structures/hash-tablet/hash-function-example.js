@@ -1,3 +1,5 @@
+// Close to O(1)
+
 function hash(key, arrayLen) {
   let total = 0;
   let WEIRD_PRIME = 31;
