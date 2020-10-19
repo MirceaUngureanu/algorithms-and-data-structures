@@ -24,6 +24,9 @@ Graph traversal uses:
 
 Depth first recursive pseudocode:
 ```
+const results = []
+const visited = {}
+
 DFSRecursive(vertex):
     if verted is empty 
         return (this is base case)
