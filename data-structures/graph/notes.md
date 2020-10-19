@@ -36,3 +36,17 @@ DFSRecursive(vertex):
         if neighbor is not visited:
             recursively call DFSRecursive on neighbor
 ```
+
+Depth first iterative pseudocode:
+```
+DFSIterative(start):
+    let S be a stack
+    S.push(start)
+    while S is not empty
+        vertex = S.pop()
+        if vertex is not labeled as discovered:
+            visit vertex (add to result list)
+            label vertex as discovered
+            for each of vertex's neighbors, N do
+                S.push(N) 
+```
